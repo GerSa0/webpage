@@ -1,0 +1,108 @@
+/*  */
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+div {
+  margin: 0;
+}
+h1 {
+  font-size: 5.625rem; /* 100% == 16px == 1 em; 90px == 90/16 * 100 == 562.5% == 5.625em*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #448AFF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #448AFF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #03A9F4;
+}
+
+/* CLASS containers */
+
+.bottom-container {
+  background-color: #364e68;
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  color: #448AFF;
+  text-decoration: none;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  color: #448AFF;
+  text-decoration: none;
+}
+
+.middle-container {
+  background-color: #ebf0f6;
+}
+
+.top-container {
+  background-color: #98ccd3;
+  padding: 0;
+  position : relative;
+  padding-top: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position : absolute;
+  left: 300px;
+  top: 300px;
+}
+
+.top-cloud {
+  position : absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.subtitle {
+  font-size: 40%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height : 2;
+  overflow: auto;
+}
+
+.monkey-figure {
+  width: 40%;
+  float: left;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.monkey-img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.bunny-figure {
+  width: 35%;
+  float: right;
+  margin-right: 10px;
+}
+
+.bunny-img {
+  width: 100%;
+  vertical-align: top;
+}
